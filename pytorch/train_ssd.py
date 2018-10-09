@@ -167,7 +167,7 @@ if __name__ == '__main__':
     if args.net == 'vgg16-ssd':
         creat_net = create_vgg_ssd
         config = vgg_ssd_config
-    elif args.net == 'mobilenet-v1-ssd':
+    elif args.net == 'mobilenet-v1-ssd': 
         creat_net = create_mobilenetv1_ssd
         config = mobilenetv1_ssd_config
     elif args.net == 'fpn-mobilenet-v1-ssd':
